@@ -1,0 +1,41 @@
+
+body {
+    position: absolute;
+    left: 300px;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf8KHkM-GkJyWyGv56HeyUQy4b9xhIzwWmPg&s);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.notify{
+    width: 30px;
+    height:30px ;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.name_tel{
+    right: inherit;
+    text-align: center;
+}
+.be_nametel{
+    background-color: aqua;
+}
+table, td, th {
+    border: 1px solid;
+}
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
